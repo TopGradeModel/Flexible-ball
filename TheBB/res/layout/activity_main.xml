@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TwoActivity"
+  android:orientation="vertical"
+     >
+      <TextView 
+         android:id="@+id/end_TextView"
+         android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#ff0000" 
+    android:textSize="30sp" 
+    android:layout_gravity="center_horizontal"
+         />
+     <TextView 
+         android:id="@+id/sum_TextView"
+         android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="本次获得积分:"
+    android:textColor="#ff0000" 
+    android:textSize="18sp" 
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+         />
+     <Button 
+         android:id="@+id/start_btn1"
+          android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+         android:text="重新开始"
+           android:layout_marginTop="10dp"
+         />
+     <Button 
+         android:id="@+id/upload_btn2"
+          android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+         android:text="上传成绩"
+           android:layout_marginTop="10dp"
+         />
+     <Button 
+         android:id="@+id/check_btn3"
+          android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+         android:text="查看榜单"
+           android:layout_marginTop="10dp"
+         />
+    
+
+   
+
+</LinearLayout>
